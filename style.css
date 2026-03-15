@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.nav-kiri{
+    color: red;
+    object-fit: cover;
+    text-align: left;
+}
+.nav-links {
+ display: flex;
+ list-style: none;
+ gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: black;              /* warna link default */
+  background-color: greenyellow;   /* warna background link */
+  padding: 8px 16px;           /* beri jarak dalam tombol */
+  border-radius: 5px;          /* pojok membulat */
+  transition: 0.3s;            /* animasi smooth */
+}
+.bio tr {
+    color: greenyellow;
+    padding: 100px;
+}
