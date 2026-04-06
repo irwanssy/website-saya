@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    background: #020617;
+    padding: 20px 50px;
+    position: fixed;
+    top: 0;
+    width:100%;
+    z-index: 1000;
+    background: #0b1b60;
+}
+
+.navbar.shrink {
+    height: 50px;
+    font-size: 0.85rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #228B22;
+    letter-spacing: 2px;
+}
+
+.nav-links {
+    list-style:none;
+    display:flex;
+    gap: 20PX;
+}
+
+.nav-links a {
+    color: #228B22;
+    cursor: pointer;
+    display: flexbox;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.hero-content{
+    height: 75vh; /* penuh 1 layar */
+    display: flex;
+    justify-content: center; /* horizontal tengah */
+    align-items: center;     /* vertikal tengah */
+    text-align: center;      /* teks rata tengah */
+    flex-direction: column;
+    cursor:crosshair;
+}
+
+.hero-content h2 {
+    color: #99b799;
+    margin-bottom: 5px;
+    cursor:text;
+}
+
+.hero-content p {
+    margin-bottom: 10px;
+    font-family: 'VT323', monospace;
+    cursor: text;
+}
+.btn {
+    display: flexbox;
+    justify-content: center;
+    text-align: center;
+    margin: 2px;
+    padding: 10px;
+    border: solid #228B22;
+    border-radius: 12px;
+    color: azure;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.btn:hover {
+    background: #228B22;
+    color: blueviolet;
+    box-shadow: 0 0 10px white;
+}
+.about {
+    height: 100vh; /* penuh 1 layar */
+    display: flex;
+    justify-content: center; /* horizontal tengah */
+    align-items: center;     /* vertikal tengah */
+    text-align: center;      /* teks rata tengah */
+    flex-direction: column;
+}
